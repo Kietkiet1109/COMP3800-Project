@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "gBiomedApp",
+    "slug": "gBiomedApp",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/images/logos/splash.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logos/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.gBiomedApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logos/splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.gBiomedApp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      [
+        "expo-router"
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Montserrat-Regular.ttf",
+            "./assets/fonts/Montserrat-Bold.ttf",
+            "./assets/fonts/Montserrat-Italic.ttf",
+            "./assets/fonts/Montserrat-BoldItalic.ttf",
+            "./assets/fonts/Montserrat-Light.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
